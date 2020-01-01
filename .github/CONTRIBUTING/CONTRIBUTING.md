@@ -6,6 +6,9 @@ By participating, you are expected to uphold this code. Please report unacceptab
 ## If you have questions:
 [TBD: links for our open communication channels]
 
+## Setting up your Dev env
+[TBD: add instructions on current process]
+
 ## Workflow
 [TBD: add from [HP Fiscal Explorer](https://github.com/CivicDataLab/hp-fiscal-data-explorer-backend/wiki/Coding-Guidelines)]
 
@@ -23,7 +26,7 @@ By participating, you are expected to uphold this code. Please report unacceptab
     - :art: `:art:` when improving the format/structure of the code
     - :racehorse: `:racehorse:` when improving performance
     - :non-potable_water: `:non-potable_water:` when plugging memory leaks
-    - :memo :memo: when writing docs
+    - :memo: `:memo:` when writing docs
     - :penguin: `:penguin:` when fixing something on Linux
     - :apple: `:apple:` when fixing something on macOS
     - :checkered_flag: `:checkered_flag:` when fixing something on Windows
@@ -41,6 +44,12 @@ By participating, you are expected to uphold this code. Please report unacceptab
 
 ### Documentation Styleguide
 [TBD: [Refs](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#documentation-styleguide)]
+
+## How to lint locally
+[TBD: add instructions on hooks, integration with editor]
+
+## Testing
+[TBD: add test instructions]
 
 ## Additional Notes
 
