@@ -1,2 +1,2 @@
 # Justice-Hub
-Master repository for documentation and map to all the repositories
+Master repository for documentation and index to all the repositories
