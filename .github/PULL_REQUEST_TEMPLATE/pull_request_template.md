@@ -4,6 +4,10 @@ Please include a summary of the change and which issue is fixed. Please also inc
 
 Fixes # (issue)
 
+## Performance Impact
+
+Please describe any relevant performance impact of this change. This can be positive or negative impact. How did you characterize/test the performance impact?
+
 ## Type of change
 
 Please delete options that are not relevant.
@@ -25,6 +29,20 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 * Hardware:
 * Toolchain:
 * SDK:
+
+**Software Configuration**:
+* Operating System:
+* Software version:
+* Branch:
+* Toolchain version:
+* SDK version:
+
+# Reviews
+
+Please identify two developers to review this change
+
+- [ ] @personA
+- [ ] @personB
 
 # Checklist:
 
