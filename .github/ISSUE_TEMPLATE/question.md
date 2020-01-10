@@ -25,4 +25,4 @@ For other questions:
 > Please write the question as concisely as possible and give relevant information if applicable.
 
 
-Template created with help from: https://github.com/openssl/openssl/pull/10051/files
+`NOTE: Template created with help from: https://github.com/openssl/openssl/pull/10051/files`
