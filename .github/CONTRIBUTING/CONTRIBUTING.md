@@ -1,10 +1,15 @@
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the [Justice Hub Code of Conduct](https://github.com/justicehub-in/Justice-Hub/blob/master/CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code. Please report unacceptable behavior to info@civicdatalab.in.
+By participating, you are expected to uphold this code. Please report unacceptable behavior to [judiciary@civicdatalab.in](mailto:judiciary@civicdatalab.in).
 
 ## If you have questions:
-[TBD: links for our open communication channels]
+
+* You can write us at [judiciary@civicdatalab.in](mailto:judiciary@civicdatalab.in).
+* Start a discussion on our [Project Taiga Board](https://taiga.civicdatalab.in/project/apoorv-justice-data-hub/issues).
+* Use [this template](https://github.com/justicehub-in/Justice-Hub/blob/master/.github/ISSUE_TEMPLATE/question.md) to create a new issue in this repository.
+
+`NOTE: Please avoid creating github issues for questions related to the usage of the platform, you can ask them on the Taiga Board or write to us instead.`
 
 ## Setting up your Dev env
 [TBD: add instructions on current process]
