@@ -12,10 +12,30 @@ By participating, you are expected to uphold this code. Please report unacceptab
 `NOTE: Please avoid creating github issues for questions related to the usage of the platform, you can ask them on the Taiga Board or write to us instead.`
 
 ## Setting up your Dev env
-[TBD: add instructions on current process]
+Please refer to the [wiki]().  
+[TBD: add wiki link when page added.]
 
 ## Workflow
-[TBD: add from [HP Fiscal Explorer](https://github.com/CivicDataLab/hp-fiscal-data-explorer-backend/wiki/Coding-Guidelines)]
+
+* Create an issue for a feature/bug.
+* Discuss the implementation on the issue itself while attaching the supporting docs there.
+* Create a new branch for the issue.
+* Code in the branch.
+* Open a PR using [this template](https://github.com/justicehub-in/Justice-Hub/blob/master/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md) with the very first commit and add a WIP prefix to the title of the PR. e.g. WIP: Fix #1 - add base project structure with spiders.
+* When finished with the implementation, request reviews and remove the WIP prefix.
+* If approved, merge the branch. If you are merging from your local CLI(instead of Github UI), make sure your merge commit message contain Fix #1 (for our example, the issue number is 1, replace it with whatever issue number you worked on).
+* Go back and check if your issue is closed or not, if not just close it with a reference to the PR which closes it and then go ahead and delete the branch.
+
+### Branching Model
+
+* Protect Master Branch
+  Resources:
+  * [Defining the mergeability of PRs](https://help.github.com/en/articles/defining-the-mergeability-of-pull-requests)
+
+* Branches should be created with respect to issues with the name convention as:
+
+      <feature_name-#issue_number> e.g. scraper-#1.
+
 
 ## Styleguides
 
@@ -52,6 +72,8 @@ By participating, you are expected to uphold this code. Please report unacceptab
 
 ## How to lint locally
 [TBD: add instructions on hooks, integration with editor]
+
+`NOTE: Any PR that needs to be merged must get a score > 8 to be passed from CI pipeline.`
 
 ## Testing
 [TBD: add test instructions]
