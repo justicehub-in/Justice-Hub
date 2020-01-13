@@ -21,14 +21,14 @@ Please refer to the [wiki]().
 * Discuss the implementation on the issue itself while attaching the supporting docs there.
 * Create a new branch for the issue.
 * Code in the branch.
-* Open a PR using [this template](https://github.com/justicehub-in/Justice-Hub/blob/master/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md) with the very first commit and add a WIP prefix to the title of the PR. e.g. WIP: Fix #1 - add base project structure with spiders.
+* Open a PR using [this template](https://github.com/justicehub-in/Justice-Hub/blob/master/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md) with the very first commit and add a WIP prefix to the title of the PR. e.g. `WIP: Fix #1 - add base project structure with spiders.`
 * When finished with the implementation, request reviews and remove the WIP prefix.
-* If approved, merge the branch. If you are merging from your local CLI(instead of Github UI), make sure your merge commit message contain Fix #1 (for our example, the issue number is 1, replace it with whatever issue number you worked on).
+* If approved, merge the branch. If you are merging from your local CLI(instead of Github UI), make sure your merge commit message contain `Fix #1` (for our example, the issue number is 1, replace it with whatever issue number you worked on).
 * Go back and check if your issue is closed or not, if not just close it with a reference to the PR which closes it and then go ahead and delete the branch.
 
 ### Branching Model
 
-* Protect Master Branch
+* Protect Master Branch  
   Resources:
   * [Defining the mergeability of PRs](https://help.github.com/en/articles/defining-the-mergeability-of-pull-requests)
 
@@ -52,9 +52,6 @@ Please refer to the [wiki]().
     - :racehorse: `:racehorse:` when improving performance
     - :non-potable_water: `:non-potable_water:` when plugging memory leaks
     - :memo: `:memo:` when writing docs
-    - :penguin: `:penguin:` when fixing something on Linux
-    - :apple: `:apple:` when fixing something on macOS
-    - :checkered_flag: `:checkered_flag:` when fixing something on Windows
     - :bug: `:bug:` when fixing a bug
     - :fire: `:fire:` when removing code or files
     - :green_heart: `:green_heart:` when fixing the CI build
@@ -65,13 +62,22 @@ Please refer to the [wiki]().
     - :shirt: `:shirt:` when removing linter warnings
 
 ### Python Styleguide
-[TBD: add pep8 links and some general rules we follow]
+
+* We really like [Google's Python Styleguide](https://google.github.io/styleguide/pyguide.html).
+  * Do not miss the `pylint` specific instructions.
+* We try to stick to [Pep8](https://pep8.org/) as much as possible.
 
 ### Documentation Styleguide
-[TBD: [Refs](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#documentation-styleguide)]
+
+* Use [Markdown](https://daringfireball.net/projects/markdown/).
+* [Don’t document your code. Code your documentation.](https://medium.com/@morillas/dont-document-your-code-code-your-documentation-5b940357a829)
+* [How to document source code responsibly.](https://medium.com/@andrewgoldis/how-to-document-source-code-responsibly-2b2f303aa525)
+* [The Hitchhiker's guide to Documentation.](https://docs.python-guide.org/writing/documentation/)
+* [A beginner’s guide to writing documentation.](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
 
 ## How to lint locally
-[TBD: add instructions on hooks, integration with editor]
+
+* [Integrating pylint in your workflow.](https://github.com/CivicDataLab/hp-fiscal-data-explorer-backend/wiki/Integrate-code-linting-to-your-workflow)
 
 `NOTE: Any PR that needs to be merged must get a score > 8 to be passed from CI pipeline.`
 
