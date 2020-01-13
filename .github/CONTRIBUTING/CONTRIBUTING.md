@@ -93,7 +93,48 @@ Please open an issue on `justicehub-in/Justice-Hub` if you have suggestions for 
 and if you notice some labels are missing on some repositories, then please open an issue on that repository.
 
 #### Type of Issue and Issue State
-[TBD: Add table, [ref](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#type-of-issue-and-issue-state)]
+
+This section lists the labels we use to help us track and manage issues and pull requests.
+
+[GitHub search](https://help.github.com/articles/searching-issues/) makes it easy to use labels for finding groups of issues or pull requests you're interested in. To help you find issues and pull requests, each label is listed with search links for finding open items with that label in `justicehub-in`. We  encourage you to read about [other search filters](https://help.github.com/articles/searching-issues/) which will help you write more focused queries.
+
+The labels are loosely grouped by their purpose, but it's not required that every issue have a label from every group or that an issue can't have more than one label from the same group.
+
+Please open an issue on `justicehub-in/Justice-Hub` if you have suggestions for new labels, and if you notice some labels are missing on some repositories, then please open an issue on that repository.
+
+#### Type of Issue and Issue State
+
+| Label name | `justicehub-in`‑org :mag_right: | Description |
+| --- | --- | --- | --- |
+| `enhancement` | [search][search-jh-org-label-enhancement] | Feature requests. |
+| `bug` | [search][search-jh-org-label-bug] | Confirmed bugs or reports that are very likely to be bugs. |
+| `question` | [search][search-jh-org-label-question] | Questions more than bug reports or feature requests (e.g. how do I do X). |
+| `feedback` | [search][search-jh-org-label-feedback] | General feedback more than bug reports or feature requests. |
+| `help-wanted` | [search][search-jh-org-label-help-wanted] | The Justice Hub core team would appreciate help from the community in resolving these issues. |
+| `beginner` | [search][search-jh-org-label-beginner] | Less complex issues which would be good first issues to work on for users who want to contribute to Atom. |
+| `more-information-needed` | [search][search-jh-org-label-more-information-needed] | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
+| `needs-reproduction` | [search][search-jh-org-label-needs-reproduction] | Likely bugs, but haven't been reliably reproduced. |
+| `blocked` | [search][search-jh-org-label-blocked] | Issues blocked on other issues. |
+| `duplicate` | [search][search-jh-org-label-duplicate] | Issues which are duplicates of other issues, i.e. they have been reported before. |
+| `wontfix` | [search][search-jh-org-label-wontfix] | The Justice Hub core team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
+| `invalid` | [search][search-jh-org-label-invalid] | Issues which aren't valid (e.g. user errors). |
+| `wrong-repo` | [search][search-jh-org-label-wrong-repo] | Issues reported on the wrong repository (e.g. a bug related to the [Front-end](https://github.com/justicehub-in/JH-Frontend) was reported on [Backend](https://github.com/justicehub-in/JH-Backend)). |
+
+#### Topic Categories
+
+| Label name | `justicehub-in`‑org :mag_right: | Description |
+| `documentation` | [search][search-atom-repo-label-documentation] | [search][search-atom-org-label-documentation] | Related to any type of documentation (e.g. [API documentation](https://atom.io/docs/api/latest/) and the [flight manual](https://flight-manual.atom.io/)). |
+| `performance` | [search][search-atom-repo-label-performance] | [search][search-atom-org-label-performance] | Related to performance. |
+| `security` | [search][search-atom-repo-label-security] | [search][search-atom-org-label-security] | Related to security. |
+| `ui` | [search][search-atom-repo-label-ui] | [search][search-atom-org-label-ui] | Related to visual design. |
+| `api` | [search][search-atom-repo-label-api] | [search][search-atom-org-label-api] | Related to Atom's public APIs. |
 
 #### Pull Request Labels
-[TBD: Add table, [ref](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#pull-request-labels)]
+
+| Label name | `justicehub-in`‑org :mag_right: | Description
+| --- | --- | --- | --- |
+| `work-in-progress` | [search][search-jh-org-label-work-in-progress] | Pull requests which are still being worked on, more changes will follow. |
+| `needs-review` | [search][search-jh-org-label-needs-review] | Pull requests which need code review, and approval from maintainers or Atom core team. |
+| `under-review` | [search][search-jh-org-label-under-review] | Pull requests being reviewed by maintainers or Atom core team. |
+| `requires-changes` | [search][search-jh-org-label-requires-changes] | Pull requests which need to be updated based on review comments and then reviewed again. |
+| `needs-testing` | [search][search-jh-org-label-needs-testing] | Pull requests which need manual testing. |
