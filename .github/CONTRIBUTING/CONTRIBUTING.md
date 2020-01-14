@@ -92,8 +92,6 @@ This section lists the labels we use to help us track and manage issues and pull
 
 [GitHub search](https://help.github.com/articles/searching-issues/) makes it easy to use labels for finding groups of issues or pull requests you're interested in. To help you find issues and pull requests, each label is listed with search links for finding open items with that label in `justicehub-in`. We  encourage you to read about [other search filters](https://help.github.com/articles/searching-issues/) which will help you write more focused queries.
 
-The labels are loosely grouped by their purpose, but it's not required that every issue have a label from every group or that an issue can't have more than one label from the same group.
-
 Please open an issue on `justicehub-in/Justice-Hub` if you have suggestions for new labels, and if you notice some labels are missing on some repositories, then please open an issue on that repository.
 
 #### Type of Issue and Issue State
@@ -185,3 +183,6 @@ Please open an issue on `justicehub-in/Justice-Hub` if you have suggestions for 
 
 [beginner]:https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abeginner+label%3Ahelp-wanted+user%3Ajusticehub-in+sort%3Acomments-desc
 [help-wanted]:https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+user%3Ajusticehub-in+sort%3Acomments-desc+-label%3Abeginner
+
+
+`NOTE: The contribution guidelines are inspired by awesome contribution guidelines from Atom: https://github.com/atom/atom/blob/master/CONTRIBUTING.md`
