@@ -89,10 +89,6 @@ Please refer to the [wiki]().
 ### Issues and Pull Request Labels
 
 This section lists the labels we use to help us track and manage issues and pull requests.
-Please open an issue on `justicehub-in/Justice-Hub` if you have suggestions for new labels,
-and if you notice some labels are missing on some repositories, then please open an issue on that repository.
-
-This section lists the labels we use to help us track and manage issues and pull requests.
 
 [GitHub search](https://help.github.com/articles/searching-issues/) makes it easy to use labels for finding groups of issues or pull requests you're interested in. To help you find issues and pull requests, each label is listed with search links for finding open items with that label in `justicehub-in`. We  encourage you to read about [other search filters](https://help.github.com/articles/searching-issues/) which will help you write more focused queries.
 
@@ -107,10 +103,10 @@ Please open an issue on `justicehub-in/Justice-Hub` if you have suggestions for 
 | --- | --- | --- |
 | `enhancement` | [search][search-jh-org-label-enhancement] | Feature requests. |
 | `bug` | [search][search-jh-org-label-bug] | Confirmed bugs or reports that are very likely to be bugs. |
-| `question` | [search][search-jh-org-label-question] | Questions more than bug reports or feature requests (e.g. how do I do X). |
+| `question` | [search][search-jh-org-label-question] | Questions more than bug reports or feature requests. |
 | `feedback` | [search][search-jh-org-label-feedback] | General feedback more than bug reports or feature requests. |
 | `help-wanted` | [search][search-jh-org-label-help-wanted] | The Justice Hub core team would appreciate help from the community in resolving these issues. |
-| `beginner` | [search][search-jh-org-label-beginner] | Less complex issues which would be good first issues to work on for users who want to contribute to Atom. |
+| `beginner` | [search][search-jh-org-label-beginner] | Less complex issues which would be good first issues to work on for users who want to contribute to Justice Hub. |
 | `more-information-needed` | [search][search-jh-org-label-more-information-needed] | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
 | `needs-reproduction` | [search][search-jh-org-label-needs-reproduction] | Likely bugs, but haven't been reliably reproduced. |
 | `blocked` | [search][search-jh-org-label-blocked] | Issues blocked on other issues. |
@@ -124,19 +120,68 @@ Please open an issue on `justicehub-in/Justice-Hub` if you have suggestions for 
 
 | Label name | `justicehub-in`‑org :mag_right: | Description |
 | --- | --- | --- |
-| `documentation` | [search][search-atom-repo-label-documentation] | [search][search-atom-org-label-documentation] | Related to any type of documentation (e.g. [API documentation](https://atom.io/docs/api/latest/) and the [flight manual](https://flight-manual.atom.io/)). |
-| `performance` | [search][search-atom-repo-label-performance] | [search][search-atom-org-label-performance] | Related to performance. |
-| `security` | [search][search-atom-repo-label-security] | [search][search-atom-org-label-security] | Related to security. |
-| `ui` | [search][search-atom-repo-label-ui] | [search][search-atom-org-label-ui] | Related to visual design. |
-| `api` | [search][search-atom-repo-label-api] | [search][search-atom-org-label-api] | Related to Atom's public APIs. |
+| `documentation` | [search][search-jh-org-label-documentation] | Related to any type of documentation. |
+| `performance` | [search][search-jh-org-label-performance] | Related to performance. |
+| `security` | [search][search-jh-org-label-security] | Related to security. |
+| `ui` | [search][search-jh-org-label-ui] | Related to visual design. |
+| `api` | [search][search-jh-org-label-api] | Related to JusticeHub's public APIs. |
 
 
 #### Pull Request Labels
 
 | Label name | `justicehub-in`‑org :mag_right: | Description
 | --- | --- | --- |
-| `work-in-progress` | [search][search-jh-org-label-work-in-progress] | Pull requests which are still being worked on, more changes will follow. |
+| `wip` | [search][search-jh-org-label-wip] | Pull requests which are still being worked on, more changes will follow. |
 | `needs-review` | [search][search-jh-org-label-needs-review] | Pull requests which need code review, and approval from maintainers or Atom core team. |
-| `under-review` | [search][search-jh-org-label-under-review] | Pull requests being reviewed by maintainers or Atom core team. |
+| `under-review` | [search][search-jh-org-label-under-review] | Pull requests being reviewed by the core team. |
 | `requires-changes` | [search][search-jh-org-label-requires-changes] | Pull requests which need to be updated based on review comments and then reviewed again. |
 | `needs-testing` | [search][search-jh-org-label-needs-testing] | Pull requests which need manual testing. |
+
+
+
+[search-jh-org-label-enhancement]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aenhancement
+[search-jh-org-label-bug]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Abug
+[search-jh-org-label-question]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aquestion
+[search-jh-org-label-feedback]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Afeedback
+[search-jh-org-label-help-wanted]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Ahelp-wanted
+[search-jh-org-label-beginner]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Abeginner
+[search-jh-org-label-more-information-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Amore-information-needed
+[search-jh-org-label-needs-reproduction]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aneeds-reproduction
+[search-jh-org-label-triage-help-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Atriage-help-needed
+[search-jh-org-label-windows]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Awindows
+[search-jh-org-label-linux]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Alinux
+[search-jh-org-label-mac]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Amac
+[search-jh-org-label-documentation]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Adocumentation
+[search-jh-org-label-performance]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aperformance
+[search-jh-org-label-security]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Asecurity
+[search-jh-org-label-ui]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aui
+[search-jh-org-label-api]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aapi
+[search-jh-org-label-crash]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Acrash
+[search-jh-org-label-auto-indent]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aauto-indent
+[search-jh-org-label-encoding]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aencoding
+[search-jh-org-label-network]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Anetwork
+[search-jh-org-label-uncaught-exception]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Auncaught-exception
+[search-jh-org-label-git]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Agit
+[search-jh-org-label-blocked]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Ablocked
+[search-jh-org-label-duplicate]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aduplicate
+[search-jh-org-label-wontfix]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Awontfix
+[search-jh-org-label-invalid]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Ainvalid
+[search-jh-org-label-package-idea]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Apackage-idea
+[search-jh-org-label-wrong-repo]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Awrong-repo
+[search-jh-org-label-editor-rendering]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aeditor-rendering
+[search-jh-org-label-build-error]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Abuild-error
+[search-jh-org-label-error-from-pathwatcher]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aerror-from-pathwatcher
+[search-jh-org-label-error-from-save]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aerror-from-save
+[search-jh-org-label-error-from-open]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aerror-from-open
+[search-jh-org-label-installer]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Ainstaller
+[search-jh-org-label-auto-updater]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aauto-updater
+[search-jh-org-label-deprecation-help]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Adeprecation-help
+[search-jh-org-label-electron]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Ajusticehub-in+label%3Aelectron
+[search-jh-org-label-wip]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Ajusticehub-in+label%3Awip
+[search-jh-org-label-needs-review]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Ajusticehub-in+label%3Aneeds-review
+[search-jh-org-label-under-review]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Ajusticehub-in+label%3Aunder-review
+[search-jh-org-label-requires-changes]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Ajusticehub-in+label%3Arequires-changes
+[search-jh-org-label-needs-testing]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Ajusticehub-in+label%3Aneeds-testing
+
+[beginner]:https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abeginner+label%3Ahelp-wanted+user%3Ajusticehub-in+sort%3Acomments-desc
+[help-wanted]:https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+user%3Ajusticehub-in+sort%3Acomments-desc+-label%3Abeginner
