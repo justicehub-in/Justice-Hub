@@ -1,50 +1,41 @@
-# Justice-Hub
-Justice-Hub is a initiative from [CivicDataLab](https://www.civicdatalab.in) in collaboration with [Agami](https://www.agami.in/). The hub initiated as part of the [Agami data challenge -2019](https://www.agami.in/data-challenge-2019). Justice Hub is a community platform where civil society organizations, researchers, journalists, law firms etc., can share, build and collaborate on the common resources. Justice Hub is a platform to co-create participatory open-source tools and to help people acquire skills to
-not just be a consumer of knowledge but also become a valuable participant.
+## Justice-Hub
+---
 
-## Key features
+Justice-Hub is an initiative from [CivicDataLab](https://www.civicdatalab.in) in collaboration with [Agami](https://www.agami.in/). The hub initiated as part of the [Agami data challenge -2019](https://www.agami.in/data-challenge-2019). Justice Hub is a collaborative data platform that focuses on legal and justice related datasets and other resources. Our objective is to build a common platform for members of the legal data and tech community (civil society organizations, researchers, journalists, law firms etc.) to share, build and collaborate on the common resources. [Read more here](https://drive.google.com/open?id=1xDqffVUyhfND_YfoSps9vi4MN9SY_oMg) .. 
 
-**Data Validation & Auditing Toolkit:** Help assess datasets submissions on the platform based on rubrics related to quality, privacy, ethics, completeness and more.
+### Justice Hub - Reading List
 
-**Metadata & Tags Generator:** Suggest right keyword tags and recommend datasets for each submission. Plus, a metadata framework to ensure searchability and discoverability of published data on search engines to boost organic traffic.
+* [Challenge announcement and Results](https://www.agami.in/data-challenge-2019)
+* Grant Application from CivicDataLab:
+   * [Round 1 & 2](https://drive.google.com/open?id=1Z_wQDRpBhkInrwBdRwHd0zjItucAFGsQilfHC34ypew)
+   * [Round 3](https://drive.google.com/open?id=0B2W3CN8d5hnJNWd5STZhdW1jYnkycTVvbi1HcEtUSk1rbWxz)
+   * [Slide Deck (Final round presentation)](https://drive.google.com/open?id=1Z_wQDRpBhkInrwBdRwHd0zjItucAFGsQilfHC34ypew)
+* Justice Hub Kick Off
+    * [Agenda](https://drive.google.com/open?id=0B2W3CN8d5hnJOVRqZ1AtX0M3bV9NeXpEb3oyem1heFZaRWpB)
+    * [CDL Presentation](https://drive.google.com/open?id=1WEc-EXPh4b7mcfjPUTgiGXAWbmw9-cimIHW2QEb3cJM)
+    * [Early Thinking and First Steps](https://drive.google.com/open?id=0B2W3CN8d5hnJMjdGODN0cUVjaEpDZmxRWHVjWmYwN1Y2NTA0)
+* Media Announcements
+   * https://barandbench.com/creating-a-hub-for-info-on-the-judicial-system-the-agami-data-for-justice-challenge/
+   * https://barandbench.com/5-winners-agami-data-for-justice-challenge/
 
-**Curation and Review:** Users will have the ability to curate and review various contributions made under various sections.
 
-**Visualizations:** Ongoing open-source data visualization libraries for users to adopt, develop and contribute their data in a visual manner.
+### Repositories
 
-**Data APIs:** An API suite to make data machine-readable, accessible, reusable, interoperable, shareable and embeddable.
-
-**Sectoral Tools:** A collection of sector-based legal dashboards and tools suitable for specific sectors like Gender, Environment & more.
-
-**Language Integration:** Make platform accessible in various Indian languages.
-
-**Media Integration:** Encourage people to contribute multi-media like videos, animations, images and more.
-
-**Co-creation:** Users will have an opportunity to host campaigns to collaborate on building data, tools, case studies and more.
-
-**Timely updates:** Users will be encouraged to update their dataset on a timely basis to ensure recency of the data and content being published.
-
-**Scoreboards:** Rank contributors on the platform in terms of number of data uploads, updates, reviews, guidebooks, blogs, wikis, campaigns and more.
-
-Note: All the above mentioned features are in-progress and are subject to change. 
-
-For more information and regular updates please check the development wiki [here](https://taiga.civicdatalab.in/project/apoorv-justice-data-hub/wiki/home)
-
-## Repositories
-
-* JH Infra - Infrastructure automation for Justice hub platform.
+* [JH Infra](https://github.com/justicehub-in/JH-Infra) - Infrastructure automation for Justice hub platform.
 * JH backend - Data pipeline / Adhoc scripts/ documentation etc..
-* JH frontend - UI customizations for CKAN.
+* [JH frontend](https://github.com/justicehub-in/JH-Frontend) - UI customizations for CKAN.
 * JH CKAN plugins - Custom CKAN plugins required for Justice hub
 * JusticeHub - Master for all the repositories. Host high-level documentation and point to documentation from various repositories.
 * Jh Design - house our design process documents and other design related stuff.
 
 Note: Please check the individual repositories for information on features, setup processes and more.
 
-### Contribution Guidelines
+---
+
+#### Contribution Guidelines
 If you want to contribute to JusticeHub Infra, be sure to review the  [contribution guidelines](https://github.com/justicehub-in/Justice-Hub/blob/master/.github/CONTRIBUTING/CONTRIBUTING.md). This project adheres to JusticeHub's [code of conduct](https://github.com/justicehub-in/Justice-Hub/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 We use GitHub issues for tracking requests and bugs.
 
-### Contact
+#### Contact
 To contact the team behind JusticeHub, please write to judiciary@civicdatalab.in
