@@ -2,21 +2,7 @@
 
 Justice-Hub is an initiative from [CivicDataLab](https://www.civicdatalab.in) in collaboration with [Agami](https://www.agami.in/). The hub initiated as part of the [Agami data challenge -2019](https://www.agami.in/data-challenge-2019). Justice Hub is a collaborative data platform that focuses on legal and justice related datasets and other resources. Our objective is to build a common platform for members of the legal data and tech community (civil society organizations, researchers, journalists, law firms etc.) to share, build and collaborate on the common resources. [Read more here](https://drive.google.com/open?id=1xDqffVUyhfND_YfoSps9vi4MN9SY_oMg) .. 
 
-### Justice Hub - Reading List
-
-* [Challenge announcement and Results](https://www.agami.in/data-challenge-2019)
-* Grant Application from [CivicDataLab](https://www.civicdatalab.in/):
-   * [Round 1 & 2](https://drive.google.com/open?id=1Z_wQDRpBhkInrwBdRwHd0zjItucAFGsQilfHC34ypew)
-   * [Round 3](https://drive.google.com/open?id=0B2W3CN8d5hnJNWd5STZhdW1jYnkycTVvbi1HcEtUSk1rbWxz)
-   * [Slide Deck (Final round presentation)](https://drive.google.com/open?id=1Z_wQDRpBhkInrwBdRwHd0zjItucAFGsQilfHC34ypew)
-* Justice Hub Kick Off
-    * [Agenda](https://drive.google.com/open?id=0B2W3CN8d5hnJOVRqZ1AtX0M3bV9NeXpEb3oyem1heFZaRWpB)
-    * [CDL Presentation](https://drive.google.com/open?id=1WEc-EXPh4b7mcfjPUTgiGXAWbmw9-cimIHW2QEb3cJM)
-    * [Early Thinking and First Steps](https://drive.google.com/open?id=0B2W3CN8d5hnJMjdGODN0cUVjaEpDZmxRWHVjWmYwN1Y2NTA0)
-* Media Announcements
-   * https://barandbench.com/creating-a-hub-for-info-on-the-judicial-system-the-agami-data-for-justice-challenge/
-   * https://barandbench.com/5-winners-agami-data-for-justice-challenge/
-
+Also, check the [reading list](https://taiga.civicdatalab.in/project/apoorv-justice-data-hub/wiki/essential-reading-list-around-the-justice-hub) we're curating, to know more about the project. 
 
 ### Repositories
 
