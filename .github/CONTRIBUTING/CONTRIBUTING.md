@@ -130,7 +130,7 @@ Please open an issue on `justicehub-in/Justice-Hub` if you have suggestions for 
 | Label name | `justicehub-in`‑org :mag_right: | Description
 | --- | --- | --- |
 | `wip` | [search][search-jh-org-label-wip] | Pull requests which are still being worked on, more changes will follow. |
-| `needs-review` | [search][search-jh-org-label-needs-review] | Pull requests which need code review, and approval from maintainers or Atom core team. |
+| `needs-review` | [search][search-jh-org-label-needs-review] | Pull requests which need code review, and approval from Justice Hub core team. |
 | `under-review` | [search][search-jh-org-label-under-review] | Pull requests being reviewed by the core team. |
 | `requires-changes` | [search][search-jh-org-label-requires-changes] | Pull requests which need to be updated based on review comments and then reviewed again. |
 | `needs-testing` | [search][search-jh-org-label-needs-testing] | Pull requests which need manual testing. |
