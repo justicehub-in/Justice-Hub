@@ -12,7 +12,7 @@ By participating, you are expected to uphold this code. Please report unacceptab
 `NOTE: Please avoid creating github issues for questions related to the usage of the platform, you can ask them on the Taiga Board or write to us instead.`
 
 ## Setting up your Dev env
-Please refer to the [wiki]().  
+Please refer to the [wiki](https://github.com/justicehub-in/JH-Infra/wiki).  
 [TBD: add wiki link when page added.]
 
 ## Workflow
