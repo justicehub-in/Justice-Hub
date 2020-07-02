@@ -8,7 +8,7 @@ Also, check the [reading list](https://taiga.civicdatalab.in/project/apoorv-just
 
 * [JH Infra](https://github.com/justicehub-in/JH-Infra) - Infrastructure automation for Justice hub platform.
 * JH backend - Data pipeline / Adhoc scripts/ documentation etc..
-* [JH frontend](https://github.com/justicehub-in/JH-Frontend) - UI customizations for CKAN.
+* [JH frontend](https://github.com/justicehub-in/ckanext-justicehub_theme) - UI customizations for CKAN.
 * JH CKAN plugins - Custom CKAN plugins required for Justice hub
 * JusticeHub - Master for all the repositories. Host high-level documentation and point to documentation from various repositories.
 * Jh Design - house our design process documents and other design related stuff.
